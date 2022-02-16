@@ -15,7 +15,7 @@ body {
 
 /* Base */
 .container-wide {
-    margin: 0 auto 198px auto;
+    margin: 0 auto;
     width: 100%;
     padding: 64px 80px 0 80px;
 }
@@ -23,6 +23,7 @@ body {
 .row {
     display: flex;
     align-items: center;
+    margin-bottom: 198px;
 }
 
 .space-between {
@@ -78,4 +79,32 @@ body {
 
 .account:hover {
     color: #fbd784;
+}
+
+/* HERO */
+
+.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.hero-category::before {
+    display: block;
+    content: "";
+    width: 72px;
+    height: 2px;
+    background-color: #fbd784;
+}
+
+.hero-title {
+    
+}
+
+.hero-scroll {
+
 }
