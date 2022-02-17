@@ -167,14 +167,14 @@ body {
 
 /* Article */
 
-.main {
-    margin-top: -200;
-}
 .article {
-    margin-top: 200px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.article:nth-child(even) {
+    flex-direction: row-reverse;
 }
 .article-text {
     position: relative;
@@ -195,7 +195,6 @@ body {
     font-size: 240px;
     line-height: 1;
     color: rgba(255,255,255,0.1);
-
 }
 .article-subtitle {
     margin-bottom: 32px;
@@ -260,5 +259,36 @@ body {
 }
 
 .article-img {
+display: block;
+}
+
+/* Footer */
+
+.footer {
+
+}
+
+.container {
+
+}
+.footer-copyright {
+
+}
+.footer-copyright-logo {
+
+}
+.logo {
+
+}
+.footer-copyright-desk {
+
+}
+.footer-copyright-terms {
+
+}
+.footer-nav {
+
+}
+.footer-nav-title {
 
 }
