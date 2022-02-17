@@ -13,6 +13,10 @@ body {
     color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 /* Base */
 .container {
     max-width: 1492px;
@@ -280,6 +284,7 @@ body {
     font-size: 18px;
     line-height: 1.222;
     color: #fbd784;
+    text-decoration: none;
 } 
 .article-read-more::after {
     position: absolute;
@@ -344,6 +349,7 @@ margin-left: 212px;
 }
 
 .footer-nav-title {
+    margin-bottom: 11px;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
