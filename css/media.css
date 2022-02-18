@@ -1,0 +1,15 @@
+
+
+@media screen and (max-width: 800px) {
+    .nav, .account {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .mobile-nav-active {
+        display: flex;
+    }
+}

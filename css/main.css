@@ -128,6 +128,85 @@ h1, h2, h3, h4, h5, h6, p {
     background-image: url('/img/account.svg');
 }
 
+.nav-button {
+    position: relative;
+    z-index: 9;
+    display: none;
+    height: 25px;
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.nav-button:focus,
+.nav-button:active {
+    outline: none;
+}
+
+.nav-button-icon {
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 5px; 
+    border: none;
+    background-color: #fff;
+
+}
+
+.nav-button-icon::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    width: 42px;
+    height: 5px; 
+    content: "";
+    display: block;
+    background-color: #fff;
+}
+
+.nav-button-icon::after {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 42px;
+    height: 5px; 
+    content: "";
+    display: block;
+    background-color: #fff;
+}
+
+.nav-button-close .nav-button-icon {
+    background-color: transparent;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    height: 100%;
+    padding: 70px 70px 50px 30px;
+    background-color: rgba(11, 29, 38, 0.808);
+}
+
+.mobile-nav .nav,
+.mobile-nav .account {
+    display: block;
+}
+
+.mobile-nav .nav ul {
+    flex-direction: column;
+}
+
+.mobile-nav .nav ul li {
+    margin: 0;
+    margin-bottom: 25px;
+}
 /* HERO */
 
 .hero {
