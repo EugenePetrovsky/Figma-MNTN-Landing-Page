@@ -24,7 +24,7 @@ img {
 
 /* Base */
 .no-scroll {
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .container {
