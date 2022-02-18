@@ -1,3 +1,15 @@
+@media (max-width: 1920px) {
+    .header {
+        margin-bottom: 843px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .header {
+        margin-bottom: 500px;
+    }
+}
+
 @media (max-width: 1200px) {
     .hero-title {
         font-size: 68px;
@@ -27,7 +39,9 @@
         width: 45%;
     }
 
-
+    .footer-nav + .footer-nav {
+        margin-left: 100px;
+        }
 }
 
 @media (max-width: 768px) {
@@ -81,19 +95,34 @@
     .article-img {
         padding-left: 0px;
         max-width: 100%;
-        width: 100%;
+        width: auto;
         margin-bottom: 75px;
     }
 
     .article-title {
+        /* text-align: center; */
         font-size: 44px;
-        padding-left: 10px;
+        max-width: 100%;
     }
 
     .article-text {
         max-width: 100%;
         padding-left: 10px;
     }
+
+    .footer-row {
+        flex-direction: column-reverse;
+        
+    }
+
+    .footer-nav-wrapper {
+        margin-bottom: 80px;
+        justify-content: space-around;
+        }
+
+    .footer-nav + .footer-nav {
+        margin-left: 20px;
+        }
 
 
 }

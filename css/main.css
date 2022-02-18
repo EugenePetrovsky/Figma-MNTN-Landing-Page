@@ -39,12 +39,15 @@ img {
 
 .row {
     display: flex;
-    align-items: center;
     margin-bottom: 198px;
 }
 
 .space-between {
     justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
 }
 
 /* Header */
@@ -396,18 +399,22 @@ img {
 /* Footer */
 .footer {
     padding-bottom: 120px;
+    
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-copyright {
     display: flex;
     flex-direction: column;
-}
-
-.footer-copyright-logo {
-    margin-bottom: 24px;
+    
 }
 
 .footer-copyright-desk {
+    padding-top: 10px;
     max-width: 303px;
     font-style: normal;
     font-weight: 700;
