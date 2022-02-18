@@ -10,9 +10,27 @@
     .header {
         margin-bottom: 300px;
     }
+
+    .article-text::before {
+        width: 140px;
+        height: 140px;
+        font-size: 140px;
+    }
+
+    .article-text {
+        padding-left: 50px;
+        max-width: 50%;
+    }
+
+    .article-img {
+        padding-left: 20px;
+        width: 45%;
+    }
+
+
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .nav, .account {
         display: none;
     }
@@ -54,4 +72,28 @@
     .hero-scroll {
         font-weight: 500;
     }
+
+    .article, .article:nth-child(even) {
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+
+    .article-img {
+        padding-left: 0px;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 75px;
+    }
+
+    .article-title {
+        font-size: 44px;
+        padding-left: 10px;
+    }
+
+    .article-text {
+        max-width: 100%;
+        padding-left: 10px;
+    }
+
+
 }

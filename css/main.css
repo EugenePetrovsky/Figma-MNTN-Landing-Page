@@ -17,6 +17,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 /* Base */
 .container {
     max-width: 1492px;
@@ -386,10 +391,6 @@ h1, h2, h3, h4, h5, h6, p {
     width: 24px;
     height: 16px;
     background-image: url('/img/arrow-right.svg');
-}
-
-.article-img {
-    display: block;
 }
 
 /* Footer */
