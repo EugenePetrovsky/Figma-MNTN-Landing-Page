@@ -2,6 +2,14 @@
     .hero-title {
         font-size: 68px;
     }
+
+    .row {
+        margin-bottom: 98px;
+    }
+
+    .header {
+        margin-bottom: 300px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -23,6 +31,13 @@
         padding: 20px 20px 0 20px;
     }
 
+    .row {
+        margin-bottom: 98px;
+    }
+
+    .header {
+        margin-bottom: 200px;
+    }
     .hero-title {
         font-size: 38px;
     }
