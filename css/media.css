@@ -26,4 +26,17 @@
     .hero-title {
         font-size: 38px;
     }
+
+    .hero-category {
+        font-size: 14px;
+        padding-left: 62px;
+    }
+
+    .hero-category::before {
+        width: 42px;
+    }
+
+    .hero-scroll {
+        font-weight: 500;
+    }
 }
