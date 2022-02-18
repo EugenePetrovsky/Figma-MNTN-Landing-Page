@@ -418,10 +418,10 @@ img {
     justify-content: space-between;
 }
 
-.footer-copyright {
+.footer-copyright-logo {
     display: flex;
     flex-direction: column;
-    
+    align-items: flex-start;
 }
 
 .footer-copyright-desk {
