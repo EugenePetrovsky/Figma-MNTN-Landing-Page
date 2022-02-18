@@ -23,6 +23,10 @@ img {
 }
 
 /* Base */
+.no-scroll {
+    overflow: hidden;
+}
+
 .container {
     max-width: 1492px;
     margin-left: auto;
@@ -138,7 +142,7 @@ img {
 
 .nav-button {
     position: relative;
-    z-index: 99;
+    z-index: 9;
     display: none;
     height: 25px;
     border: none;
@@ -186,7 +190,6 @@ img {
 
 .nav-button-close .nav-button-icon {
     background-color: transparent;
-    
 }
 
 .nav-button-close .nav-button-icon::before {
@@ -201,6 +204,7 @@ img {
 
 .mobile-nav {
     position: fixed;
+    z-index: 8;
     top: 0;
     right: 0;
     display: none;
