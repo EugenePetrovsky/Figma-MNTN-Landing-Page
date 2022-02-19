@@ -314,6 +314,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 0 20px;
 }
 
 .article:nth-child(even) {
@@ -409,7 +410,7 @@ img {
 
 /* Footer */
 .footer {
-    padding-bottom: 120px;
+    padding-bottom: 50px;
     
 }
 
